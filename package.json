@@ -4,7 +4,9 @@
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
 	"scripts": {
-		"start": "node myApp.js"
+		"start": "node myApp.js",
+		"starte": "nodemon myApp.js",
+		"watch": "npm-watch"
 	},
 	"dependencies": {
 		"express": "^4.14.0",
@@ -16,5 +18,8 @@
 		"express",
 		"freecodecamp"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	}
 }
